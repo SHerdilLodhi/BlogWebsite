@@ -1,0 +1,40 @@
+.mainprofile{
+    display: flex;
+    
+    flex-direction: column;
+    /* transform: rotate(180deg); */
+}
+@media only screen and (max-width: 800px) {
+    .rightimg {
+      display: none;
+    }
+  }
+
+  .delbutton{
+      width: 100%;
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+.lol{
+    display: flex;
+}
+.postss{
+    /* border: 1px solid green; className="profile" */
+    width: 80vw;
+}
+
+
+
+.profile{
+          /* border: 2px solid red; */
+          height: 100%;
+          width: 15%;
+      }
+
+      /* .userProfile img{
+        width: 50px;
+        border-radius: 50%;
+        height: 50px;
+        object-fit: cover;
+      } */
